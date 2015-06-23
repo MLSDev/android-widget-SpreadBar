@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SpreadBar</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_reset">Reset</string>
+</resources>

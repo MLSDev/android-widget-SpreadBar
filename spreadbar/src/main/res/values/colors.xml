@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_gradient_line">#17222B</color>
+    <color name="light_green">#01EB00</color>
+    <color name="light_yellow">#FFF93D</color>
+    <color name="light_red">#FF543D</color>
+
+    <color name="dark_text">#5B7998</color>
+
+    <color name="text_info">#5C7A99</color>
+
+    <color name="hit_green">#2ECC71</color>
+    <color name="hit_green_pressed">#28B062</color>
+    <color name="hit_red">#E54D46</color>
+    <color name="hit_red_pressed">#CC433D</color>
+</resources>

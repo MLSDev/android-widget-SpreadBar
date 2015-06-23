@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="thumb">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:src">@drawable/slider_button</item>
+    </style>
+    <style name="thumb.left">
+        <item name="android:layout_gravity">left|bottom</item>
+    </style>
+    <style name="thumb.right">
+        <item name="android:layout_gravity">right|bottom</item>
+    </style>
+
+    <style name="gradient">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">4dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:paddingLeft">32dp</item>
+        <item name="android:paddingRight">32dp</item>
+        <item name="android:src">@drawable/slider_gradient</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <style name="bubble">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">29dp</item>
+    </style>
+    <style name="bubble.left">
+        <item name="android:layout_gravity">left|bottom</item>
+        <item name="android:layout_marginLeft">6dp</item>
+    </style>
+    <style name="bubble.right">
+        <item name="android:layout_gravity">right|bottom</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+
+    <style name="range"/>
+    <style name="range.info">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+    </style>
+    <style name="range.info.left">
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+    </style>
+    <style name="range.info.right">
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+    </style>
+
+    <style name="hit_button"/>
+
+    <style name="hit_button.area">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:minHeight">64dp</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:clickable">true</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+    <style name="hit_button.area.min">
+        <item name="android:background">@drawable/btn_hit_min_background</item>
+    </style>
+    <style name="hit_button.area.max">
+        <item name="android:background">@drawable/btn_hit_max_background</item>
+    </style>
+
+    <style name="hit_button.arrow">
+        <item name="android:layout_width">6dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">6dp</item>
+    </style>
+    <style name="hit_button.arrow.min">
+        <item name="android:src">@drawable/ic_hit_arrow_left</item>
+    </style>
+    <style name="hit_button.arrow.max">
+        <item name="android:src">@drawable/ic_hit_arrow_right</item>
+        <item name="android:layout_gravity">right</item>
+    </style>
+
+    <style name="hit_button.text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+       <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="hit_button.text.left">
+        <item name="android:layout_gravity">right|center_vertical</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:text">@string/hit_min_text</item>
+    </style>
+    <style name="hit_button.text.right">
+        <item name="android:layout_gravity">left|center_vertical</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:text">@string/hit_max_text</item>
+    </style>
+
+</resources>

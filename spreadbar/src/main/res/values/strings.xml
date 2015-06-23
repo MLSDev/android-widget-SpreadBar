@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SpreadBar</string>
+
+    <string name="hit_min_text">HIT</string>
+    <string name="hit_max_text">HIT</string>
+
+</resources>
