@@ -1,6 +1,6 @@
 # Android SpreadBar example
 ## Description
-This application is demo for "spread bar" widget
+This application is a demo for "spread bar" widget
 
 ## Requirements
 
